@@ -37,7 +37,7 @@ const router = new VueRouter({
 // 从而让整个应用都有路由功能
 const app = new Vue({
   router,
-  render: h => h(App)
+  render: x => x(App)
 }).$mount('#app')
 
 router.push('/goods')

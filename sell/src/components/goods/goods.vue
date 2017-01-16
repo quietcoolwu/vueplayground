@@ -1,6 +1,6 @@
 <template>
 <div>
-  imported goods
+  imported goods haha
 </div>
 </template>
 
