@@ -18,7 +18,7 @@ module.exports = {
     'generator-star-spacing': 0,
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-    'semi': ['error', 'always'],
-    'indent': 0
+    // no func() -- func () in *.vue and *.js lint
+    'space-before-function-paren': 0
   }
 };
